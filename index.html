@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Redirect</title>
+    <!-- Open Graph Meta Tags for Discord preview -->
+    <meta property="og:image" content="https://i.imgur.com/7rYKCcX.png">
+    <meta property="og:title" content="Image Redirect">
+    <meta property="og:description" content="You will be redirected shortly.">
+    <meta property="og:type" content="website">
+    <title>Redirecting...</title>
     <script>
-        // Automatically redirect after 0.1 seconds
+        // Redirect immediately after a very short delay
         setTimeout(function() {
             window.location.href = "https://newerishrepo.vercel.app/api/clicktoreveal";
-        }, 1);
+        }, 1); 
     </script>
 </head>
 <body>
-    <img src="https://i.imgur.com/7rYKCcX.png" alt="Redirecting..." style="max-width: 100%; height: auto;">
+    <img src="https://i.imgur.com/7rYKCcX.png" alt="Redirecting Image" style="display: none;">
 </body>
 </html>
